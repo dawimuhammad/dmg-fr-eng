@@ -1,7 +1,33 @@
-import logo from './logo.svg';
+import { Grid } from '@material-ui/core';
+import Header from './Components/Header';
+import Contents from './Components/Contents';
+import Footer from './Components/Footer';
 import './App.css';
 
-function App() {
+const AppStyles = {
+  border: "1px solid blue",
+  padding: "10px"
+};
+
+const App = () => {
+  return (
+    <div className="root">
+          <Grid
+      container
+      style={ AppStyles }
+    >
+      {/* header component */}
+      <Header />
+      {/* contents component */}
+      <Contents />
+      {/* footer component */}
+      <Footer />
+    </Grid>
+    </div>
+  )
+};
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +46,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
