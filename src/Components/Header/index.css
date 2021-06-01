@@ -1,0 +1,43 @@
+.header-root {
+  border: 1px solid purple;
+  margin-top: 37px;
+}
+
+.logo-damogo {
+  width: 113px;
+}
+
+.top-anchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.top-anchor:last-child {
+  margin-right: 0;
+}
+
+.top-anchor .dot {
+  margin-top: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #00A3F4;
+}
+
+.top-anchor .dot:not(.active) {
+  background-color: transparent;
+}
+
+.top-anchor a {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.top-anchor a.active {
+  color: #00A3F4;
+}
