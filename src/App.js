@@ -6,7 +6,7 @@ import './App.css';
 
 const AppStyles = {
   border: "1px solid blue",
-  padding: "10px"
+  padding: "0 120px"
 };
 
 const App = () => {
@@ -26,26 +26,5 @@ const App = () => {
     </div>
   )
 };
-
-/* function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-} */
 
 export default App;
