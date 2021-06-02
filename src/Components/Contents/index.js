@@ -1,7 +1,8 @@
 import { Grid } from '@material-ui/core';
+import Banner from './Banner';
 
 const ContentStyles = {
-  border: "1px solid green"
+
 };
 
 const Contents = () => {
@@ -12,9 +13,11 @@ const Contents = () => {
       alignItems="center"
       style={ ContentStyles }
     >
+      <Banner />
       <h1>Damogo Contents</h1>
       <h1>Damogo Contents</h1>
       <h1>Damogo Contents</h1>
+      <div style={{ height: "500px" }} ></div>
     </Grid>
   )
 };

@@ -12,17 +12,14 @@ const AppStyles = {
 const App = () => {
   return (
     <div className="root">
-          <Grid
-      container
-      style={ AppStyles }
-    >
-      {/* header component */}
-      <Header />
-      {/* contents component */}
-      <Contents />
-      {/* footer component */}
-      <Footer />
-    </Grid>
+      <Grid
+        container
+        style={ AppStyles }
+      >
+        <Header />
+        <Contents />
+        <Footer />
+      </Grid>
     </div>
   )
 };
