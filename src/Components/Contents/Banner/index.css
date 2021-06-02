@@ -24,6 +24,10 @@
   position: relative;
 }
 
+.banner-root .right .elipse, .img-fruit {
+  margin-left: 10%;
+}
+
 .banner-root .right .bg-shape-blue {
   background: #DFF4FF;
   border-radius: 100px 0px 0px 0px;
@@ -33,15 +37,62 @@
   z-index: 1;
 }
 
+.bg-shape-blue .shape-whatsapp {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 100%;
+  top: 90%;
+  background: #3AE058;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px -10px #3AE058;
+}
+
+.shape-whatsapp .icon-whatsapp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.bg-shape-blue .dot-blurred {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 15%;
+  top: 15%;
+  background: #00A3F4;
+  filter: blur(6px);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bg-shape-blue .dot-blurred.yellow {
+  width: 18px;
+  height: 18px;
+  left: 100%;
+  top: 50%;
+  background: #FFBB00;
+}
+
+.bg-shape-blue .dot-blurred.green {
+  width: 12px;
+  height: 12px;
+  left: 30%;
+  top: 85%;
+  background: #009673;
+}
+
 .banner-root .elipse {
-background: #009673;
-box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
-border-radius: 50%;
-position: absolute;
-top: 36%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%);
+  background: #009673;
+  box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .banner-root .elipse.green {
@@ -65,13 +116,85 @@ transform: translate(-50%, -50%);
   z-index: 1;
 }
 
+.banner-root .top {
+  position: absolute;
+  top: 36%;
+  left: 58%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  /* the size of root component refers to image size */
+  width: 484px; 
+  height: 326px;
+}
+
+.banner-root .top .shape-icon {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  background: rgba(0, 163, 244, 0.2);
+  box-shadow: inset 0px 0px 4px #FFFFFF;
+  backdrop-filter: blur(5px);
+  border-radius: 100px;
+  z-index: 6;
+}
+
+.top .shape-icon.squared {
+  width: 122px;
+  height: 122px;
+  border-radius: 24px;
+  top: 82%;
+  left: 72%;
+}
+
+.shape-icon.shape-icon.squared .icon-dmg {
+  width: 84px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.top .shape-icon.bag {
+  top: -12%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.shape-icon.bag .icon-bag {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.top .shape-icon.shop {
+  top: 50%;
+  left: 0;
+}
+
+.shape-icon.shop .icon-shop {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 .banner-root .img-fruit {
   width: 484px;
   height: 326px;
   filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.5));
   position: absolute;
-  top: 36%;
-  left: 50%;
+  top: 52%;
+  left: 40%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 5;

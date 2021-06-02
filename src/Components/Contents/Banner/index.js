@@ -1,5 +1,9 @@
 import { Grid, Typography } from '@material-ui/core';
 import ImgFruit from '../../Assets/asset-fruits.png';
+import IconWhatsapp from '../../Assets/icon-whatsapp.png';
+import IconBag from '../../Assets/icon-bag-white.png';
+import IconDmg from '../../Assets/icon-dmg-white.png';
+import IconShop from '../../Assets/icon-shop-white.png';
 import './index.css';
 
 const Banner = () => {
@@ -31,12 +35,32 @@ const Banner = () => {
           </span>
         </Grid>
       </Grid>
-      <Grid xs={6} item container direction="column" className="right">
-        <div className="bg-shape-blue"/>
+      <Grid xs={6} item className="right">
+        <div className="bg-shape-blue" >
+          <div className="dot-blurred"/>
+          <div className="dot-blurred yellow"/>
+          <div className="dot-blurred green"/>
+          <div className="shape-whatsapp" >
+            <img className="icon-whatsapp" src={IconWhatsapp} alt="whatsapp" />
+          </div>
+        </div>
+
         <div className="elipse green" />
         <div className="elipse yellow" />
         <div className="elipse blue" />
+
+        <div className="top">
           <img className="img-fruit" src={ImgFruit} alt="" />
+          <div className="shape-icon bag">
+            <img className="icon-bag" src={IconBag} alt="" />
+          </div>
+          <div className="shape-icon shop">
+            <img className="icon-shop" src={IconShop} alt="" />
+          </div>
+          <div className="shape-icon squared">
+            <img className="icon-dmg" src={IconDmg} alt="" />
+          </div>
+        </div>
       </Grid>
     </Grid>
   )
