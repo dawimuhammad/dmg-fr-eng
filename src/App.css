@@ -2,6 +2,10 @@
   font-family: "SF Compact Display";
 }
 
+p {
+  margin: 0;
+}
+
 .root {
   background-color: #FFFFFF;
 }
@@ -25,4 +29,8 @@
   border: 1px solid #00A3F4;
   box-sizing: border-box;
   border-radius: 100px;
+}
+
+.logo-damogo {
+  width: 113px;
 }

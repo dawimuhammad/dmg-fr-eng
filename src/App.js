@@ -17,8 +17,8 @@ const App = () => {
       >
         <Header />
         <Contents />
-        <Footer />
       </Grid>
+      <Footer />
     </div>
   )
 };
