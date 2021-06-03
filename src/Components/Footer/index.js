@@ -20,7 +20,7 @@ const Footer = () => {
         <img className="logo-damogo" src={LogoDamogo} alt="DamoGo" />
       </Grid>
       <Grid item container direction="row" style={{ marginTop: "60px" }}>
-        <Grid item container xs={7}>
+        <Grid item container xs={8}>
           <Grid item xs={4}>
             <p className="subtitle">Ikuti Kami</p>
             <p>Terms of Use</p>
@@ -44,7 +44,7 @@ const Footer = () => {
             <p>Sat & Sun 9:30 am - 6:00 pm</p>
           </Grid>
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={4}>
           <p className="subtitle">Download DamoGo App</p>
           <img className="icon-googleplay" src={IconGooglePlay} alt="Google Play"/>
           <img className="icon-appstore" src={IconAppstore} alt="App Store"/>

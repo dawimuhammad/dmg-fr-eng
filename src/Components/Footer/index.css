@@ -1,19 +1,19 @@
 .footer-root {
-  padding-top: 62px;
-  padding-bottom: 72px;
-  padding-left: 120px;
+  padding: 62px 120px 72px 120px;
   background: linear-gradient(180deg, rgba(223, 244, 255, 0) 0%, #DFF4FF 100%);
 }
 
 .footer-root .icon-googleplay {
   width: 159.03px;
   height: 48px;
+  margin-top: 20px;
 }
 
 .footer-root .icon-appstore {
   width: 161.26px;
   height: 48px;
   margin-left: 24.25px;
+  margin-top: 20px;
 }
 
 .footer-root p {
