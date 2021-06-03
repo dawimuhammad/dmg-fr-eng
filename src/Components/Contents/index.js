@@ -1,5 +1,6 @@
 import { Grid } from '@material-ui/core';
 import Banner from './Banner';
+import Blog from './Blog';
 import Partner from './Partner';
 import PartnerResto from './PartnerResto';
 import PartnerSupplier from './PartnerSupplier';
@@ -17,10 +18,8 @@ const Contents = () => {
       style={ ContentStyles }
     >
       <Banner />
+      <Blog />
       <Partner />
-      <h1>Damogo Contents</h1>
-      <h1>Damogo Contents</h1>
-      <h1>Damogo Contents</h1>
       <PartnerResto />
       <PartnerSupplier />
     </Grid>

@@ -44,6 +44,11 @@ p.white {
   box-shadow: 0px 20px 30px -15px #005844;
 }
 
+.a-button-full.yellow {
+  background: #FFBB00;
+  box-shadow: 0px 20px 30px -15px #FFBB00;
+}
+
 .a-button-outline {
   width: 192px;
   height: 48px;
