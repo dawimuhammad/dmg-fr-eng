@@ -1,0 +1,11 @@
+.supplier-root {
+  background: #009673;
+  min-height: 450px;
+  padding: 0 120px;
+}
+
+.supplier-root .mockup-supplier {
+  width: 274px;
+  height: 381px;
+  z-index: 1;
+}

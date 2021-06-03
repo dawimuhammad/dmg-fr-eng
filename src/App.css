@@ -39,6 +39,11 @@ p.white {
   box-shadow: 0px 20px 30px -15px #005179;
 }
 
+.a-button-full.dark-green {
+  background: #005844;
+  box-shadow: 0px 20px 30px -15px #005844;
+}
+
 .a-button-outline {
   width: 192px;
   height: 48px;
@@ -88,4 +93,8 @@ p.white {
 
 .mockup-shadow.blue {
   background: #005179;
+}
+
+.mockup-shadow.green {
+  background: #005844;
 }
