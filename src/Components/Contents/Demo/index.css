@@ -1,0 +1,50 @@
+.demo-root {
+  min-height: 800px;
+  padding: 90px 120px;
+}
+
+.demo-root .mockup-app {
+  width: 263px;
+  height: 525px;
+  box-shadow: 0px 50px 40px -25px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+}
+
+.demo-root .left {
+  position: relative;
+}
+
+.demo-root .elipse {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #DFF4FF;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.demo-root .elipse.full {
+  width: 364px;
+  height: 364px;
+}
+
+.demo-root .elipse.middle {
+  width: 406px;
+  height: 406px;
+}
+
+.demo-root .elipse.outer {
+  width: 448px;
+  height: 448px;
+  border: 2px solid #9BDDFF;
+}
+
+.demo-root .elipse.blurred {
+  width: 375px;
+  height: 675px;
+  border-radius: 500px 0 0 500px;
+  background: #DFF4FF;
+  border: none;
+  filter: blur(200px);
+  left: calc(100% - (375px));
+}
