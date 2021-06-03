@@ -1,39 +1,5 @@
-/* Place on Top Container */
-
-.container-heading {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  margin: 12px 0;
-}
-
-.container-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  color: #000000;
-  margin: 12px 0;
-}
-
-p.blue {
-  color: #00A3F4;
-}
-
-
-
-/* end of */
-
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .partner-root {
+  padding: 0 120px;
   margin: 60px 0;
 }
 
@@ -70,7 +36,6 @@ p.blue {
   box-sizing: border-box;
   filter: gray;
   -webkit-filter: grayscale(100%);
-  
 }
 
 .partner-root .logo-partner.hakata:hover {

@@ -6,6 +6,16 @@ p {
   margin: 0;
 }
 
+p.blue {
+  color: #00A3F4;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .root {
   background-color: #FFFFFF;
 }
@@ -33,4 +43,22 @@ p {
 
 .logo-damogo {
   width: 113px;
+}
+
+.container-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 12px 0;
+}
+
+.container-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin: 12px 0;
 }
