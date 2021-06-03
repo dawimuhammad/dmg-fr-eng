@@ -1,0 +1,11 @@
+.resto-root {
+  background: #00A3F4;
+  height: 450px;
+  padding: 0 120px;
+}
+
+.resto-root .mockup-resto {
+  width: 274px;
+  height: 381px;
+  z-index: 1;
+}

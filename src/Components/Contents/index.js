@@ -1,6 +1,7 @@
 import { Grid } from '@material-ui/core';
 import Banner from './Banner';
 import Partner from './Partner';
+import PartnerResto from './PartnerResto';
 
 const ContentStyles = {
 
@@ -19,7 +20,7 @@ const Contents = () => {
       <h1>Damogo Contents</h1>
       <h1>Damogo Contents</h1>
       <h1>Damogo Contents</h1>
-      <div style={{ height: "500px" }} ></div>
+      <PartnerResto />
     </Grid>
   )
 };
