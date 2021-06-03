@@ -34,6 +34,7 @@ const Header = () => {
           <div className="dot" />
         </Grid>
       </Grid>
+      <div className="elipse-blurred" />
     </Grid>
   )
 };
