@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import ImgFruit from '../../Assets/asset-fruits.png';
 import IconWhatsapp from '../../Assets/icon-whatsapp.png';
 import IconBag from '../../Assets/icon-bag-white.png';

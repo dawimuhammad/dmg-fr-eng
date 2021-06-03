@@ -1,0 +1,79 @@
+/* Place on Top Container */
+
+.container-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 12px 0;
+}
+
+.container-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin: 12px 0;
+}
+
+p.blue {
+  color: #00A3F4;
+}
+
+
+
+/* end of */
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-root {
+  margin: 60px 0;
+}
+
+.partner-root .logo-partner {
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  margin: 60px;
+}
+
+.partner-root .logo-partner:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.partner-root .logo-partner.alfa {
+  width: 142.77px;
+  height: 142.77px;
+}
+
+.partner-root .logo-partner.ambarukmo {
+  width: 199.15px;
+  height: 99.12px;
+}
+
+.partner-root .logo-partner.kobis {
+  width: 127.31px;
+  height: 126.4px;
+}
+
+.partner-root .logo-partner.hakata {
+  width: 142.77px;
+  height: 142.77px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  
+}
+
+.partner-root .logo-partner.hakata:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: grayscale(0);
+}

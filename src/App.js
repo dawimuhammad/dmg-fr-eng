@@ -5,7 +5,6 @@ import Footer from './Components/Footer';
 import './App.css';
 
 const AppStyles = {
-  border: "1px solid blue",
   padding: "0 120px"
 };
 
