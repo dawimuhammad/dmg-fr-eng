@@ -26,6 +26,8 @@
 .demo-root .elipse.full {
   width: 364px;
   height: 364px;
+  border: none;
+  background: #DFF4FF;
 }
 
 .demo-root .elipse.middle {
