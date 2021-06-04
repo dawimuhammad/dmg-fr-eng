@@ -17,7 +17,7 @@ const Blog = () => {
           supaya awet dan tahan lama. Tapi bagaimana ya jika tidak memiliki kulkas atau freezer? Tenang! Ada kok caranya,
           <span style={{ fontWeight: "bold", color: "#FFBB00" }}> yuk disimak!</span>
         </p>
-        <a className="a-button-full yellow">Baca Selengkapnya</a>
+        <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-full yellow">Baca Selengkapnya</a>
       </Grid>
       <Grid item xs={5} className="right">
         <div className="half-elipse-yellow" />

@@ -41,7 +41,7 @@ const Demo = () => {
           <p className="container-content-writing" style={{ marginBottom: "60px" }}>
             Atur semua pesanan dari supplier maupun bahan dari kamu ke franchise secara online.
           </p>
-          <a className="a-button-full">Lihat Demo</a>
+          <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-full">Lihat Demo</a>
         </Grid>
       </Grid>
       <div className="elipse blurred" />

@@ -22,15 +22,15 @@ const Header = () => {
         alignItems="center"
       >
         <Grid className="top-anchor">
-          <a className="active" href="">Beranda</a>
+          <a href="?" className="active">Beranda</a>
           <div className="dot active" />
         </Grid>
         <Grid className="top-anchor">
-          <a href="">Restoran</a>
+          <a href="?">Restoran</a>
           <div className="dot" />
         </Grid>
         <Grid className="top-anchor">
-          <a href="">Supplier</a>
+          <a href="?">Supplier</a>
           <div className="dot" />
         </Grid>
       </Grid>

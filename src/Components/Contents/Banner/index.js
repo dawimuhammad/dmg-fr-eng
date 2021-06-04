@@ -28,10 +28,10 @@ const Banner = () => {
         </Grid>
         <Grid item>
           <span>
-            <a className="a-button-full">Buat Janji Temu!</a>
+            <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-full">Buat Janji Temu!</a>
           </span>
           <span style={{ marginLeft: "24px" }}>
-            <a className="a-button-outline">Bertemu Tim Kami</a>
+            <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-outline">Bertemu Tim Kami</a>
           </span>
         </Grid>
       </Grid>

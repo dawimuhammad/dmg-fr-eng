@@ -16,7 +16,7 @@ const PartnerSupplier = () => {
           Baik Anda adalah pertanian milik keluarga atau distributor nasional, platform khusus kami akan mengubah cara Anda
           berbisnis. Hemat waktu untuk tugas manual, kurangi kesalahan pesanan, dan jual lebih banyak produk.
         </p>
-        <a className="a-button-full dark-green">Pelajari Selengkapnya</a>
+        <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-full dark-green">Pelajari Selengkapnya</a>
       </Grid>
       <Grid item xs={5} style={{ display: "flex", justifyContent: "center", alignItems: "flex-end" }}>
         <div className="mockup-shadow green" />

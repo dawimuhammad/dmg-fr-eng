@@ -19,7 +19,7 @@ const PartnerResto = () => {
         <p className="container-content-writing white" style={{ marginTop: "55px", marginBottom: "55px" }}>Aplikasi gratis kami adalah cara paling efisien untuk memesan
           dari semua pemasok Anda. Selesaikan pesanan lebih cepat, tidur lebih awal.
         </p>
-        <a className="a-button-full dark-blue">Pelajari Selengkapnya</a>
+        <a href="https://damogoapp.com" target="_blank" rel="noreferrer" className="a-button-full dark-blue">Pelajari Selengkapnya</a>
       </Grid>
     </Grid>
   )
