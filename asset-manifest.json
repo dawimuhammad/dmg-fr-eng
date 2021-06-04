@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dmg-fr-eng/static/css/main.caddfea8.chunk.css",
+    "main.js": "/dmg-fr-eng/static/js/main.fb7213c6.chunk.js",
+    "main.js.map": "/dmg-fr-eng/static/js/main.fb7213c6.chunk.js.map",
+    "runtime-main.js": "/dmg-fr-eng/static/js/runtime-main.1c69f81a.js",
+    "runtime-main.js.map": "/dmg-fr-eng/static/js/runtime-main.1c69f81a.js.map",
+    "static/js/2.ada9ae4a.chunk.js": "/dmg-fr-eng/static/js/2.ada9ae4a.chunk.js",
+    "static/js/2.ada9ae4a.chunk.js.map": "/dmg-fr-eng/static/js/2.ada9ae4a.chunk.js.map",
+    "static/js/3.6c52bc53.chunk.js": "/dmg-fr-eng/static/js/3.6c52bc53.chunk.js",
+    "static/js/3.6c52bc53.chunk.js.map": "/dmg-fr-eng/static/js/3.6c52bc53.chunk.js.map",
+    "index.html": "/dmg-fr-eng/index.html",
+    "static/css/main.caddfea8.chunk.css.map": "/dmg-fr-eng/static/css/main.caddfea8.chunk.css.map",
+    "static/js/2.ada9ae4a.chunk.js.LICENSE.txt": "/dmg-fr-eng/static/js/2.ada9ae4a.chunk.js.LICENSE.txt",
+    "static/media/asset-fruits.af3f1e9b.png": "/dmg-fr-eng/static/media/asset-fruits.af3f1e9b.png",
+    "static/media/icon-app-store.35feaa96.png": "/dmg-fr-eng/static/media/icon-app-store.35feaa96.png",
+    "static/media/icon-googleplay.ca11ff56.png": "/dmg-fr-eng/static/media/icon-googleplay.ca11ff56.png",
+    "static/media/logo-partner-alfamidi.ceb967ee.png": "/dmg-fr-eng/static/media/logo-partner-alfamidi.ceb967ee.png",
+    "static/media/logo-partner-maskobis.6961170d.png": "/dmg-fr-eng/static/media/logo-partner-maskobis.6961170d.png",
+    "static/media/logo-partner-plaza-ambarukmo.7e9eec8c.png": "/dmg-fr-eng/static/media/logo-partner-plaza-ambarukmo.7e9eec8c.png",
+    "static/media/mockup-app.4abce95a.png": "/dmg-fr-eng/static/media/mockup-app.4abce95a.png",
+    "static/media/mockup-ceker-surrounded.2dd31f8d.png": "/dmg-fr-eng/static/media/mockup-ceker-surrounded.2dd31f8d.png",
+    "static/media/mockup-resto.203aa552.png": "/dmg-fr-eng/static/media/mockup-resto.203aa552.png",
+    "static/media/mockup-supplier.0c4d4309.png": "/dmg-fr-eng/static/media/mockup-supplier.0c4d4309.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c69f81a.js",
+    "static/js/2.ada9ae4a.chunk.js",
+    "static/css/main.caddfea8.chunk.css",
+    "static/js/main.fb7213c6.chunk.js"
+  ]
+}
